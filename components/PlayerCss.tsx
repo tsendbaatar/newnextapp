@@ -12,7 +12,7 @@ export default function PlayerCSS() {
           controls
           preload="auto"
           data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=IkOVe40Sy0U"}] }'
-        ></video>
+        ></video>!
       </div>
     </>
   )

@@ -17,7 +17,7 @@ export default function Index() {
   return (
     <>
       <Player {...videoJsOptions} />
-      <PlayerCSS {...videoJsOptions} />
+      <PlayerCSS /> 
     </>
   )
 }
