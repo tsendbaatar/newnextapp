@@ -4,7 +4,7 @@ import PlayerCSS from '../components/PlayerCss'
 export default function Index() {
   const videoJsOptions = {
     techOrder: ['youtube'],
-    autoplay: false,
+    autoplay: true,
     controls: true,
     sources: [
       {
@@ -17,7 +17,7 @@ export default function Index() {
   return (
     <>
       <Player {...videoJsOptions} />
-      <PlayerCSS />
+      <PlayerCSS {...videoJsOptions} />
     </>
   )
 }
