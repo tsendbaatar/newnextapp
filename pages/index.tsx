@@ -16,6 +16,7 @@ export default function Index() {
 
   return (
     <>
+    <>Hello Video app!!!</>
       <Player {...videoJsOptions} />
       <PlayerCSS /> 
     </>
